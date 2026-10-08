@@ -33,7 +33,7 @@ namespace WindowsFormsApp1
         public float fimax;
         public int umin,umax;
         public float ellocoeff;
-
+        public const float anglerange = 120;
         public INTRAK()
         {
             InitializeComponent();
@@ -103,7 +103,7 @@ namespace WindowsFormsApp1
                                 float fpoint = (float)data;                            
                                 if (ellocoeff == 0) { fpoint = 0; }
                                 else { fpoint = (float)(fpoint - umin) / ellocoeff; }
-                                if (fpoint > 90) { fpoint = 90; }
+                                if (fpoint > anglerange) { fpoint = anglerange; }
                                 if (fpoint < 0) { fpoint = 0; }
 
                                 lbActPos.Invoke(new Action(delegate () 
@@ -182,7 +182,7 @@ namespace WindowsFormsApp1
                                 txtUmax.Invoke(new Action(delegate () { txtUmax.Text = (Convert.ToString(umax)); }));
                                 txtStartDelay.Invoke(new Action(delegate () { txtStartDelay.Text = (Convert.ToString(Int32.Parse(temps[11]))); }));
 
-                                ellocoeff = (float)(umax - umin) / 90;
+                                ellocoeff = (float)(umax - umin) / anglerange;
                                 fpoint = (float)(point - umin) / ellocoeff;
                                 //lbPointCal.Invoke(new Action(delegate () { lbPointCal.Text = (Convert.ToString("{0:F2}",fpoint)); }));
                                 lbPointCal.Invoke(new Action(delegate () { lbPointCal.Text = fpoint.ToString("0.00"); lbPointCal.Text += "°"; }));
@@ -381,7 +381,7 @@ namespace WindowsFormsApp1
                 float fpoint = Convert.ToSingle(txtPoint.Text);
                 if (ellocoeff == 0) { fpoint = 0; }
                 else { fpoint = (float)(fpoint - umin) / ellocoeff; }
-                if (fpoint > 90) { fpoint = 90; }
+                if (fpoint > anglerange) { fpoint = anglerange; }
                 if (fpoint < 0) { fpoint = 0; }
                 lbPointCal.Invoke(new Action(delegate () { lbPointCal.Text = fpoint.ToString("0.00"); lbPointCal.Text += "°"; }));
             }

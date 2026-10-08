@@ -7,3 +7,13 @@ D:\VSTUDIO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
 D:\VSTUDIO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
 D:\VSTUDIO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.INTRAK.resources
 D:\VSTUDIO\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojResolveAssemblyReference.cache
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.INTRAK.resources
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\VSTUDIO\INTRCFG\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

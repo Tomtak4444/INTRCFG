@@ -90,7 +90,7 @@
             // 
             this.lbCOM.AutoSize = true;
             this.lbCOM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.lbCOM.Location = new System.Drawing.Point(791, 6);
+            this.lbCOM.Location = new System.Drawing.Point(588, 97);
             this.lbCOM.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbCOM.Name = "lbCOM";
             this.lbCOM.Size = new System.Drawing.Size(51, 16);
@@ -103,7 +103,7 @@
             "COM1",
             "COM2"});
             this.COMSBOX.FormattingEnabled = true;
-            this.COMSBOX.Location = new System.Drawing.Point(757, 23);
+            this.COMSBOX.Location = new System.Drawing.Point(554, 114);
             this.COMSBOX.Margin = new System.Windows.Forms.Padding(4);
             this.COMSBOX.MaxDropDownItems = 6;
             this.COMSBOX.MaxLength = 5;
@@ -115,7 +115,7 @@
             // btnConnect
             // 
             this.btnConnect.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnConnect.Location = new System.Drawing.Point(741, 60);
+            this.btnConnect.Location = new System.Drawing.Point(538, 151);
             this.btnConnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(150, 28);
@@ -127,19 +127,20 @@
             // btnMSTARTSTOP
             // 
             this.btnMSTARTSTOP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnMSTARTSTOP.Location = new System.Drawing.Point(741, 96);
+            this.btnMSTARTSTOP.Location = new System.Drawing.Point(538, 187);
             this.btnMSTARTSTOP.Margin = new System.Windows.Forms.Padding(4);
             this.btnMSTARTSTOP.Name = "btnMSTARTSTOP";
             this.btnMSTARTSTOP.Size = new System.Drawing.Size(150, 28);
             this.btnMSTARTSTOP.TabIndex = 3;
             this.btnMSTARTSTOP.Text = "MOTOR START";
             this.btnMSTARTSTOP.UseVisualStyleBackColor = true;
+            this.btnMSTARTSTOP.Visible = false;
             this.btnMSTARTSTOP.Click += new System.EventHandler(this.btnMSTART_Click);
             // 
             // btnRESET
             // 
             this.btnRESET.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnRESET.Location = new System.Drawing.Point(741, 306);
+            this.btnRESET.Location = new System.Drawing.Point(538, 397);
             this.btnRESET.Margin = new System.Windows.Forms.Padding(4);
             this.btnRESET.Name = "btnRESET";
             this.btnRESET.Size = new System.Drawing.Size(150, 28);
@@ -365,25 +366,27 @@
             // btnVALVE_LP_ON
             // 
             this.btnVALVE_LP_ON.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnVALVE_LP_ON.Location = new System.Drawing.Point(741, 167);
+            this.btnVALVE_LP_ON.Location = new System.Drawing.Point(538, 258);
             this.btnVALVE_LP_ON.Margin = new System.Windows.Forms.Padding(4);
             this.btnVALVE_LP_ON.Name = "btnVALVE_LP_ON";
             this.btnVALVE_LP_ON.Size = new System.Drawing.Size(150, 28);
             this.btnVALVE_LP_ON.TabIndex = 26;
             this.btnVALVE_LP_ON.Text = "VALVE LP ON";
             this.btnVALVE_LP_ON.UseVisualStyleBackColor = true;
+            this.btnVALVE_LP_ON.Visible = false;
             this.btnVALVE_LP_ON.Click += new System.EventHandler(this.btnVALVE_LP_Click);
             // 
             // btnVALVE_DOWN_ON
             // 
             this.btnVALVE_DOWN_ON.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnVALVE_DOWN_ON.Location = new System.Drawing.Point(712, 236);
+            this.btnVALVE_DOWN_ON.Location = new System.Drawing.Point(509, 327);
             this.btnVALVE_DOWN_ON.Margin = new System.Windows.Forms.Padding(4);
             this.btnVALVE_DOWN_ON.Name = "btnVALVE_DOWN_ON";
             this.btnVALVE_DOWN_ON.Size = new System.Drawing.Size(179, 28);
             this.btnVALVE_DOWN_ON.TabIndex = 27;
             this.btnVALVE_DOWN_ON.Text = "VALVE DOWN ON";
             this.btnVALVE_DOWN_ON.UseVisualStyleBackColor = true;
+            this.btnVALVE_DOWN_ON.Visible = false;
             this.btnVALVE_DOWN_ON.Click += new System.EventHandler(this.btnVALVE_DOWN_ON_Click);
             // 
             // txtINVPOS
@@ -408,37 +411,40 @@
             // btnMSTOP
             // 
             this.btnMSTOP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnMSTOP.Location = new System.Drawing.Point(741, 132);
+            this.btnMSTOP.Location = new System.Drawing.Point(538, 223);
             this.btnMSTOP.Margin = new System.Windows.Forms.Padding(4);
             this.btnMSTOP.Name = "btnMSTOP";
             this.btnMSTOP.Size = new System.Drawing.Size(150, 28);
             this.btnMSTOP.TabIndex = 30;
             this.btnMSTOP.Text = "MOTOR STOP";
             this.btnMSTOP.UseVisualStyleBackColor = true;
+            this.btnMSTOP.Visible = false;
             this.btnMSTOP.Click += new System.EventHandler(this.btnMSTOP_Click);
             // 
             // btnVALVE_LP_OFF
             // 
             this.btnVALVE_LP_OFF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnVALVE_LP_OFF.Location = new System.Drawing.Point(741, 201);
+            this.btnVALVE_LP_OFF.Location = new System.Drawing.Point(538, 292);
             this.btnVALVE_LP_OFF.Margin = new System.Windows.Forms.Padding(4);
             this.btnVALVE_LP_OFF.Name = "btnVALVE_LP_OFF";
             this.btnVALVE_LP_OFF.Size = new System.Drawing.Size(150, 28);
             this.btnVALVE_LP_OFF.TabIndex = 31;
             this.btnVALVE_LP_OFF.Text = "VALVE LP OFF";
             this.btnVALVE_LP_OFF.UseVisualStyleBackColor = true;
+            this.btnVALVE_LP_OFF.Visible = false;
             this.btnVALVE_LP_OFF.Click += new System.EventHandler(this.btnVALVE_LP_OFF_Click);
             // 
             // btnVALVE_DOWN_OFF
             // 
             this.btnVALVE_DOWN_OFF.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnVALVE_DOWN_OFF.Location = new System.Drawing.Point(712, 272);
+            this.btnVALVE_DOWN_OFF.Location = new System.Drawing.Point(509, 363);
             this.btnVALVE_DOWN_OFF.Margin = new System.Windows.Forms.Padding(4);
             this.btnVALVE_DOWN_OFF.Name = "btnVALVE_DOWN_OFF";
             this.btnVALVE_DOWN_OFF.Size = new System.Drawing.Size(179, 28);
             this.btnVALVE_DOWN_OFF.TabIndex = 32;
             this.btnVALVE_DOWN_OFF.Text = "VALVE DOWN OFF";
             this.btnVALVE_DOWN_OFF.UseVisualStyleBackColor = true;
+            this.btnVALVE_DOWN_OFF.Visible = false;
             this.btnVALVE_DOWN_OFF.Click += new System.EventHandler(this.btnVALVE_DOWN_OFF_Click);
             // 
             // lbUmin
@@ -594,9 +600,9 @@
             this.label3.Location = new System.Drawing.Point(350, 430);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(29, 16);
+            this.label3.Size = new System.Drawing.Size(37, 16);
             this.label3.TabIndex = 47;
-            this.label3.Text = "90°";
+            this.label3.Text = "120°";
             // 
             // lbActPos
             // 
@@ -613,7 +619,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1041, 577);
+            this.ClientSize = new System.Drawing.Size(728, 577);
             this.Controls.Add(this.lbActPos);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
